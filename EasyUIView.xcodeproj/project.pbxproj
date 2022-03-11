@@ -22,6 +22,7 @@
 		1986B3A827DB2F8900BF8318 /* ViewExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1986B3A727DB2F8900BF8318 /* ViewExtentions.swift */; };
 		1986B3AA27DB2F9E00BF8318 /* UIButtonExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1986B3A927DB2F9E00BF8318 /* UIButtonExtentions.swift */; };
 		1986B3AC27DB2FB500BF8318 /* TextFieldExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1986B3AB27DB2FB500BF8318 /* TextFieldExtention.swift */; };
+		1986B3AE27DB309000BF8318 /* Travis.travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 1986B3AD27DB309000BF8318 /* Travis.travis.yml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		1986B3A727DB2F8900BF8318 /* ViewExtentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtentions.swift; sourceTree = "<group>"; };
 		1986B3A927DB2F9E00BF8318 /* UIButtonExtentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtentions.swift; sourceTree = "<group>"; };
 		1986B3AB27DB2FB500BF8318 /* TextFieldExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldExtention.swift; sourceTree = "<group>"; };
+		1986B3AD27DB309000BF8318 /* Travis.travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = Travis.travis.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				1986B3A227DB2F3500BF8318 /* UIExtentions */,
 				1986B37C27DB2B9B00BF8318 /* EasyUIViewTests */,
 				1986B38D27DB2BDC00BF8318 /* EasyViewExamples */,
+				1986B3AD27DB309000BF8318 /* Travis.travis.yml */,
 				1986B36F27DB2B9A00BF8318 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1986B3AE27DB309000BF8318 /* Travis.travis.yml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
