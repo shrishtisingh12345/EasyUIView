@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "EasyUIView"
-  spec.version      = "1.0"
+  spec.version      = "0.0.1"
   spec.summary      = "For Custom Storybord that will help u in view"
 
   # This description is used to generate tags and improve search results.
