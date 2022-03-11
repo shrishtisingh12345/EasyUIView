@@ -17,6 +17,11 @@
 		1986B39627DB2BDC00BF8318 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1986B39427DB2BDC00BF8318 /* Main.storyboard */; };
 		1986B39827DB2BDE00BF8318 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1986B39727DB2BDE00BF8318 /* Assets.xcassets */; };
 		1986B39B27DB2BDE00BF8318 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1986B39927DB2BDE00BF8318 /* LaunchScreen.storyboard */; };
+		1986B3A427DB2F7000BF8318 /* DateExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1986B3A327DB2F7000BF8318 /* DateExtentions.swift */; };
+		1986B3A627DB2F7D00BF8318 /* StringExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1986B3A527DB2F7D00BF8318 /* StringExtentions.swift */; };
+		1986B3A827DB2F8900BF8318 /* ViewExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1986B3A727DB2F8900BF8318 /* ViewExtentions.swift */; };
+		1986B3AA27DB2F9E00BF8318 /* UIButtonExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1986B3A927DB2F9E00BF8318 /* UIButtonExtentions.swift */; };
+		1986B3AC27DB2FB500BF8318 /* TextFieldExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1986B3AB27DB2FB500BF8318 /* TextFieldExtention.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +48,11 @@
 		1986B39727DB2BDE00BF8318 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1986B39A27DB2BDE00BF8318 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1986B39C27DB2BDE00BF8318 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1986B3A327DB2F7000BF8318 /* DateExtentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtentions.swift; sourceTree = "<group>"; };
+		1986B3A527DB2F7D00BF8318 /* StringExtentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtentions.swift; sourceTree = "<group>"; };
+		1986B3A727DB2F8900BF8318 /* ViewExtentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtentions.swift; sourceTree = "<group>"; };
+		1986B3A927DB2F9E00BF8318 /* UIButtonExtentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtentions.swift; sourceTree = "<group>"; };
+		1986B3AB27DB2FB500BF8318 /* TextFieldExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldExtention.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				1986B37027DB2B9A00BF8318 /* EasyUIView */,
+				1986B3A227DB2F3500BF8318 /* UIExtentions */,
 				1986B37C27DB2B9B00BF8318 /* EasyUIViewTests */,
 				1986B38D27DB2BDC00BF8318 /* EasyViewExamples */,
 				1986B36F27DB2B9A00BF8318 /* Products */,
@@ -120,6 +131,18 @@
 				1986B39C27DB2BDE00BF8318 /* Info.plist */,
 			);
 			path = EasyViewExamples;
+			sourceTree = "<group>";
+		};
+		1986B3A227DB2F3500BF8318 /* UIExtentions */ = {
+			isa = PBXGroup;
+			children = (
+				1986B3A327DB2F7000BF8318 /* DateExtentions.swift */,
+				1986B3A527DB2F7D00BF8318 /* StringExtentions.swift */,
+				1986B3A727DB2F8900BF8318 /* ViewExtentions.swift */,
+				1986B3A927DB2F9E00BF8318 /* UIButtonExtentions.swift */,
+				1986B3AB27DB2FB500BF8318 /* TextFieldExtention.swift */,
+			);
+			path = UIExtentions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,7 +285,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1986B3A427DB2F7000BF8318 /* DateExtentions.swift in Sources */,
+				1986B3AA27DB2F9E00BF8318 /* UIButtonExtentions.swift in Sources */,
+				1986B3AC27DB2FB500BF8318 /* TextFieldExtention.swift in Sources */,
+				1986B3A627DB2F7D00BF8318 /* StringExtentions.swift in Sources */,
 				1986B37327DB2B9A00BF8318 /* EasyUIView.docc in Sources */,
+				1986B3A827DB2F8900BF8318 /* ViewExtentions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -495,6 +523,7 @@
 		1986B38627DB2B9B00BF8318 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3327J23B29;
@@ -511,6 +540,7 @@
 		1986B38727DB2B9B00BF8318 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3327J23B29;
