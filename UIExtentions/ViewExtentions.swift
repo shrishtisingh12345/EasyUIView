@@ -11,7 +11,7 @@ import UIKit
 
 //MARK: UIView Extention
 
-@IBDesignable open class UIViewExtension: UIView {
+/*@IBDesignable open class UIViewExtension: UIView {
     
     //corner radius for view
     
@@ -37,7 +37,7 @@ import UIKit
     
     //Clip to bound
     
-    @IBInspectable override open var clipsToBounds: Bool {
+    @IBInspectable public override var clipsToBounds: Bool {
         get {
             return Bool(self.clipsToBounds)
         }
@@ -102,4 +102,4 @@ import UIKit
             self.layer.shadowRadius = CGFloat(newValue)
         }
     }
-}
+}*/

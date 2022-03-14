@@ -10,8 +10,7 @@ import UIKit
 
 //MARK: UIView Extention
 
-@IBDesignable
-extension UITextField {
+@IBDesignable public extension UITextField {
     
     //corner radius for textfield
     
@@ -37,7 +36,7 @@ extension UITextField {
     
     //Clip to bound textfield
     
-    @IBInspectable override open var clipsToBounds: Bool {
+    @IBInspectable override  var clipsToBounds: Bool {
         get {
             return Bool(self.clipsToBounds)
         }
@@ -128,7 +127,7 @@ extension UITextField {
     }
 
 // validation for text field
-extension UITextField{
+public extension UITextField{
     
     var isValidEmail: Bool {
         let emailRegEx = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}"
