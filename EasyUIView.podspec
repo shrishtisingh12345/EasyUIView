@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "EasyUIView"
-  spec.version      = "0.0.4"
+  spec.version      = "0.0.5"
   spec.summary      = "For Custom Storybord that will help u in view"
 
   # This description is used to generate tags and improve search results.
@@ -91,7 +91,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "EasyUIView/*.swift"
+  spec.source_files  = "UIExtentions/*.swift"
   #spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
@@ -117,8 +117,9 @@ Pod::Spec.new do |spec|
   #  the lib prefix of their name.
   #
 
-  # spec.framework  = "SomeFramework"
-  # spec.frameworks = "SomeFramework", "AnotherFramework"
+  #spec.framework      = 'SystemConfiguration'
+  spec.ios.framework  = 'UIKit'
+  spec.osx.framework  = 'AppKit'
 
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
