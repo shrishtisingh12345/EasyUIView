@@ -11,7 +11,7 @@ import UIKit
 
 //MARK: UIView Extention
 
-/*@IBDesignable open class UIViewExtension: UIView {
+@IBDesignable open class UIViewExtension: UIView {
     
     //corner radius for view
     
@@ -102,4 +102,4 @@ import UIKit
             self.layer.shadowRadius = CGFloat(newValue)
         }
     }
-}*/
+}

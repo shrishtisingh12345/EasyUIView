@@ -10,7 +10,7 @@ import UIKit
 
 //MARK: UIView Extention
 
-@IBDesignable public extension UITextField {
+/*@IBDesignable public extension UITextField {
     
     //corner radius for textfield
     
@@ -167,7 +167,7 @@ public extension UITextField{
     
     
 }
-
+*/
 
 
 
