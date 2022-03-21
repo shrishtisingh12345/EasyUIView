@@ -101,7 +101,6 @@
 				1986B38E27DB2BDC00BF8318 /* AppDelegate.swift */,
 				1986B39027DB2BDC00BF8318 /* SceneDelegate.swift */,
 				1986B39227DB2BDC00BF8318 /* ViewController.swift */,
-				1986B39727DB2BDE00BF8318 /* Assets.xcassets */,
 				1986B39927DB2BDE00BF8318 /* LaunchScreen.storyboard */,
 				1986B39C27DB2BDE00BF8318 /* Info.plist */,
 			);
@@ -117,6 +116,7 @@
 				1986B3A727DB2F8900BF8318 /* ViewExtentions.swift */,
 				1986B3A927DB2F9E00BF8318 /* UIButtonExtentions.swift */,
 				1986B3AB27DB2FB500BF8318 /* TextFieldExtention.swift */,
+				1986B39727DB2BDE00BF8318 /* Assets.xcassets */,
 			);
 			path = UIExtentions;
 			sourceTree = "<group>";
