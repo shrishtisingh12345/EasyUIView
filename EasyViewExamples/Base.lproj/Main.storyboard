@@ -15,13 +15,26 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yfm-0k-tZ4" customClass="ButtonViewSuper" customModule="EasyViewExamples" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="371" width="414" height="154"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="yfm-0k-tZ4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="7sq-sq-Fdw"/>
+                            <constraint firstItem="yfm-0k-tZ4" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="FWv-7k-MWG"/>
+                            <constraint firstItem="yfm-0k-tZ4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="327" id="YKw-q5-jNk"/>
+                            <constraint firstItem="yfm-0k-tZ4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="l0A-dw-Mdm"/>
+                            <constraint firstItem="yfm-0k-tZ4" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="wfr-rZ-mka"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="30" y="64"/>
+            <point key="canvasLocation" x="-20.289855072463769" y="-39.508928571428569"/>
         </scene>
     </scenes>
     <resources>

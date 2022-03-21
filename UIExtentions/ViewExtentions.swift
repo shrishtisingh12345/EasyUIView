@@ -11,7 +11,7 @@ import UIKit
 
 //MARK: UIView Extention
 
-@IBDesignable open class UIViewExtension: UIView {
+@IBDesignable  class UIViewExtension: UIView {
     
     //corner radius for view
     
@@ -103,3 +103,4 @@ import UIKit
         }
     }
 }
+

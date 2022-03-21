@@ -134,7 +134,7 @@ public extension UITextField{
         return emailTest.evaluate(with: self.text!)
     }
     var isValidPhoneNo: Bool{
-        if self.text!.count > 9{
+        if self.text!.count >= 10{
             return true
         }
         return false

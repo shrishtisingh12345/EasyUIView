@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1986B37327DB2B9A00BF8318 /* EasyUIView.docc in Sources */ = {isa = PBXBuildFile; fileRef = 1986B37227DB2B9A00BF8318 /* EasyUIView.docc */; };
-		1986B37927DB2B9B00BF8318 /* EasyUIView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1986B36E27DB2B9A00BF8318 /* EasyUIView.framework */; };
-		1986B37E27DB2B9B00BF8318 /* EasyUIViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1986B37D27DB2B9B00BF8318 /* EasyUIViewTests.swift */; };
 		1986B37F27DB2B9B00BF8318 /* EasyUIView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1986B37127DB2B9A00BF8318 /* EasyUIView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1986B38F27DB2BDC00BF8318 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1986B38E27DB2BDC00BF8318 /* AppDelegate.swift */; };
 		1986B39127DB2BDC00BF8318 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1986B39027DB2BDC00BF8318 /* SceneDelegate.swift */; };
@@ -23,25 +21,14 @@
 		1986B3AA27DB2F9E00BF8318 /* UIButtonExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1986B3A927DB2F9E00BF8318 /* UIButtonExtentions.swift */; };
 		1986B3AC27DB2FB500BF8318 /* TextFieldExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1986B3AB27DB2FB500BF8318 /* TextFieldExtention.swift */; };
 		1986B3AE27DB309000BF8318 /* Travis.travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 1986B3AD27DB309000BF8318 /* Travis.travis.yml */; };
-		1986B3B227DB375E00BF8318 /* ButtonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1986B3B127DB375E00BF8318 /* ButtonView.xib */; };
+		19C98C8027E073E100266F7F /* ButtonViewSuper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C98C7F27E073E100266F7F /* ButtonViewSuper.swift */; };
+		19C98C8227E0AABE00266F7F /* ButtonViewSuper.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19C98C8127E0AABE00266F7F /* ButtonViewSuper.xib */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		1986B37A27DB2B9B00BF8318 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1986B36527DB2B9A00BF8318 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1986B36D27DB2B9A00BF8318;
-			remoteInfo = EasyUIView;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		1986B36E27DB2B9A00BF8318 /* EasyUIView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EasyUIView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1986B37127DB2B9A00BF8318 /* EasyUIView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EasyUIView.h; sourceTree = "<group>"; };
 		1986B37227DB2B9A00BF8318 /* EasyUIView.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = EasyUIView.docc; sourceTree = "<group>"; };
-		1986B37827DB2B9B00BF8318 /* EasyUIViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyUIViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1986B37D27DB2B9B00BF8318 /* EasyUIViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyUIViewTests.swift; sourceTree = "<group>"; };
 		1986B38C27DB2BDC00BF8318 /* EasyViewExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyViewExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1986B38E27DB2BDC00BF8318 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1986B39027DB2BDC00BF8318 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,7 +43,8 @@
 		1986B3A927DB2F9E00BF8318 /* UIButtonExtentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtentions.swift; sourceTree = "<group>"; };
 		1986B3AB27DB2FB500BF8318 /* TextFieldExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldExtention.swift; sourceTree = "<group>"; };
 		1986B3AD27DB309000BF8318 /* Travis.travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = Travis.travis.yml; sourceTree = "<group>"; };
-		1986B3B127DB375E00BF8318 /* ButtonView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ButtonView.xib; sourceTree = "<group>"; };
+		19C98C7F27E073E100266F7F /* ButtonViewSuper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonViewSuper.swift; sourceTree = "<group>"; };
+		19C98C8127E0AABE00266F7F /* ButtonViewSuper.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ButtonViewSuper.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,14 +52,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1986B37527DB2B9B00BF8318 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1986B37927DB2B9B00BF8318 /* EasyUIView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +70,6 @@
 			children = (
 				1986B37027DB2B9A00BF8318 /* EasyUIView */,
 				1986B3A227DB2F3500BF8318 /* UIExtentions */,
-				1986B37C27DB2B9B00BF8318 /* EasyUIViewTests */,
 				1986B38D27DB2BDC00BF8318 /* EasyViewExamples */,
 				1986B3AD27DB309000BF8318 /* Travis.travis.yml */,
 				1986B36F27DB2B9A00BF8318 /* Products */,
@@ -101,7 +80,6 @@
 			isa = PBXGroup;
 			children = (
 				1986B36E27DB2B9A00BF8318 /* EasyUIView.framework */,
-				1986B37827DB2B9B00BF8318 /* EasyUIViewTests.xctest */,
 				1986B38C27DB2BDC00BF8318 /* EasyViewExamples.app */,
 			);
 			name = Products;
@@ -116,21 +94,13 @@
 			path = EasyUIView;
 			sourceTree = "<group>";
 		};
-		1986B37C27DB2B9B00BF8318 /* EasyUIViewTests */ = {
-			isa = PBXGroup;
-			children = (
-				1986B37D27DB2B9B00BF8318 /* EasyUIViewTests.swift */,
-			);
-			path = EasyUIViewTests;
-			sourceTree = "<group>";
-		};
 		1986B38D27DB2BDC00BF8318 /* EasyViewExamples */ = {
 			isa = PBXGroup;
 			children = (
+				1986B39427DB2BDC00BF8318 /* Main.storyboard */,
 				1986B38E27DB2BDC00BF8318 /* AppDelegate.swift */,
 				1986B39027DB2BDC00BF8318 /* SceneDelegate.swift */,
 				1986B39227DB2BDC00BF8318 /* ViewController.swift */,
-				1986B39427DB2BDC00BF8318 /* Main.storyboard */,
 				1986B39727DB2BDE00BF8318 /* Assets.xcassets */,
 				1986B39927DB2BDE00BF8318 /* LaunchScreen.storyboard */,
 				1986B39C27DB2BDE00BF8318 /* Info.plist */,
@@ -141,14 +111,23 @@
 		1986B3A227DB2F3500BF8318 /* UIExtentions */ = {
 			isa = PBXGroup;
 			children = (
+				19C98C7E27E073B500266F7F /* UIButtonViews */,
 				1986B3A327DB2F7000BF8318 /* DateExtentions.swift */,
 				1986B3A527DB2F7D00BF8318 /* StringExtentions.swift */,
 				1986B3A727DB2F8900BF8318 /* ViewExtentions.swift */,
 				1986B3A927DB2F9E00BF8318 /* UIButtonExtentions.swift */,
 				1986B3AB27DB2FB500BF8318 /* TextFieldExtention.swift */,
-				1986B3B127DB375E00BF8318 /* ButtonView.xib */,
 			);
 			path = UIExtentions;
+			sourceTree = "<group>";
+		};
+		19C98C7E27E073B500266F7F /* UIButtonViews */ = {
+			isa = PBXGroup;
+			children = (
+				19C98C7F27E073E100266F7F /* ButtonViewSuper.swift */,
+				19C98C8127E0AABE00266F7F /* ButtonViewSuper.xib */,
+			);
+			path = UIButtonViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,24 +162,6 @@
 			productReference = 1986B36E27DB2B9A00BF8318 /* EasyUIView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		1986B37727DB2B9B00BF8318 /* EasyUIViewTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1986B38527DB2B9B00BF8318 /* Build configuration list for PBXNativeTarget "EasyUIViewTests" */;
-			buildPhases = (
-				1986B37427DB2B9B00BF8318 /* Sources */,
-				1986B37527DB2B9B00BF8318 /* Frameworks */,
-				1986B37627DB2B9B00BF8318 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1986B37B27DB2B9B00BF8318 /* PBXTargetDependency */,
-			);
-			name = EasyUIViewTests;
-			productName = EasyUIViewTests;
-			productReference = 1986B37827DB2B9B00BF8318 /* EasyUIViewTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		1986B38B27DB2BDC00BF8318 /* EasyViewExamples */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1986B39D27DB2BDE00BF8318 /* Build configuration list for PBXNativeTarget "EasyViewExamples" */;
@@ -231,9 +192,6 @@
 					1986B36D27DB2B9A00BF8318 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
-					1986B37727DB2B9B00BF8318 = {
-						CreatedOnToolsVersion = 13.2.1;
-					};
 					1986B38B27DB2BDC00BF8318 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -253,7 +211,6 @@
 			projectRoot = "";
 			targets = (
 				1986B36D27DB2B9A00BF8318 /* EasyUIView */,
-				1986B37727DB2B9B00BF8318 /* EasyUIViewTests */,
 				1986B38B27DB2BDC00BF8318 /* EasyViewExamples */,
 			);
 		};
@@ -264,15 +221,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19C98C8227E0AABE00266F7F /* ButtonViewSuper.xib in Resources */,
 				1986B3AE27DB309000BF8318 /* Travis.travis.yml in Resources */,
-				1986B3B227DB375E00BF8318 /* ButtonView.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1986B37627DB2B9B00BF8318 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,14 +249,7 @@
 				1986B3A627DB2F7D00BF8318 /* StringExtentions.swift in Sources */,
 				1986B37327DB2B9A00BF8318 /* EasyUIView.docc in Sources */,
 				1986B3A827DB2F8900BF8318 /* ViewExtentions.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1986B37427DB2B9B00BF8318 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1986B37E27DB2B9B00BF8318 /* EasyUIViewTests.swift in Sources */,
+				19C98C8027E073E100266F7F /* ButtonViewSuper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,14 +264,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		1986B37B27DB2B9B00BF8318 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1986B36D27DB2B9A00BF8318 /* EasyUIView */;
-			targetProxy = 1986B37A27DB2B9B00BF8318 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		1986B39427DB2BDC00BF8318 /* Main.storyboard */ = {
@@ -528,40 +463,6 @@
 			};
 			name = Release;
 		};
-		1986B38627DB2B9B00BF8318 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3327J23B29;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = shrishti.EasyUIViewTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		1986B38727DB2B9B00BF8318 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3327J23B29;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = shrishti.EasyUIViewTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 		1986B39E27DB2BDE00BF8318 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -635,15 +536,6 @@
 			buildConfigurations = (
 				1986B38327DB2B9B00BF8318 /* Debug */,
 				1986B38427DB2B9B00BF8318 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1986B38527DB2B9B00BF8318 /* Build configuration list for PBXNativeTarget "EasyUIViewTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1986B38627DB2B9B00BF8318 /* Debug */,
-				1986B38727DB2B9B00BF8318 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
