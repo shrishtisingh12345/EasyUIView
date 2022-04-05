@@ -10,7 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ButtonViewSuper" customModule="EasyUIView" customModuleProvider="target">
             <connections>
-                <outlet property="buttonOfView" destination="By3-ih-Djq" id="EYD-97-Otz"/>
+                <outlet property="button" destination="By3-ih-Djq" id="Lpz-s4-s2B"/>
                 <outlet property="buttonView" destination="iN0-l3-epB" id="uau-Xd-wbT"/>
                 <outlet property="iconImage1" destination="y4a-o4-SRb" id="NEj-M7-Vs7"/>
                 <outlet property="iconImage2" destination="h9K-Md-Ifi" id="4ZN-Nt-H0T"/>
@@ -26,11 +26,11 @@
                     <state key="normal" title="Button"/>
                     <buttonConfiguration key="configuration" style="tinted" title="Button"/>
                 </button>
-                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appleLogo" translatesAutoresizingMaskIntoConstraints="NO" id="y4a-o4-SRb" userLabel="firstImg">
-                    <rect key="frame" x="20" y="15" width="25" height="25"/>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="square.and.arrow.up.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="y4a-o4-SRb" userLabel="firstImg">
+                    <rect key="frame" x="20" y="14" width="19" height="26"/>
                 </imageView>
-                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appleLogo" translatesAutoresizingMaskIntoConstraints="NO" id="h9K-Md-Ifi" userLabel="secondImg">
-                    <rect key="frame" x="361" y="15" width="25" height="25"/>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="square.and.arrow.up.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="h9K-Md-Ifi" userLabel="secondImg">
+                    <rect key="frame" x="367" y="14" width="19" height="26"/>
                 </imageView>
             </subviews>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
@@ -57,7 +57,7 @@
         </view>
     </objects>
     <resources>
-        <image name="appleLogo" width="25" height="25"/>
+        <image name="square.and.arrow.up.fill" catalog="system" width="115" height="128"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

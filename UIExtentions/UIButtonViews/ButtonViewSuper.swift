@@ -10,7 +10,7 @@ import Foundation
 
 @IBDesignable  class ButtonViewSuper:UIView
 {
-    @IBOutlet weak var buttonOfView: UIButton!
+    @IBOutlet weak var button: UIButton!
     @IBOutlet weak var buttonView: UIView!
     @IBOutlet weak var iconImage1: UIImageView!
     @IBOutlet weak var iconImage2: UIImageView!
@@ -39,5 +39,142 @@ import Foundation
         return view
         
         }
+    //MARK: IBinspectable
+     
+     @IBInspectable var customfirstImage: UIImage?
+     {
+         get{
+             return iconImage1.image
+         }
+         set(customfirstImage) {
+             iconImage1.image = customfirstImage
+         }
+     }
+     
+     @IBInspectable var customSecondImage: UIImage?
+     {
+         get{
+             return iconImage2.image
+         }
+         set(customSecondImage) {
+             iconImage2.image = customSecondImage
+         }
+     }
+   
+    @IBInspectable var buttontitle: String?
+    {
+        get{
+            return (button.setTitle(self.buttontitle, for: .normal) as! String)
+        }
+        set(buttontitle) {
+            button.setTitle(buttontitle, for: .normal)
+        }
+    }
+    @IBInspectable var cornerRadius: Double {
+        get {
+            return Double(button.layer.cornerRadius)
+        }
+        set {
+            button.layer.cornerRadius = CGFloat(newValue)
+        }
+    }
+    
+    // border width for a View
+    
+    @IBInspectable var borderWidth: Double {
+        get {
+            return Double(button.layer.borderWidth)
+        }
+        set {
+            button.layer.borderWidth = CGFloat(newValue)
+        }
+    }
+    
+    //Clip to bound
+    
+    @IBInspectable public override var clipsToBounds: Bool {
+        get {
+            return Bool(button.clipsToBounds)
+        }
+        set {
+            button.clipsToBounds = Bool(newValue)
+        }
+    }
+    
+    
+    //Border color for view
+    
+    @IBInspectable var borderColor: UIColor? {
+        get {
+            return UIColor(cgColor: button.layer.borderColor!)
+        }
+        set {
+            button.layer.borderColor = newValue?.cgColor
+        }
+    }
+    
+    // shadowColor for a view
+    
+    @IBInspectable var shadowColor: UIColor? {
+        get {
+            return UIColor(cgColor: button.layer.shadowColor!)
+        }
+        set {
+            button.layer.shadowColor = newValue?.cgColor
+        }
+    }
+    
+    
+  // shadowOpacity for a view
+    
+    @IBInspectable var shadowOpacity: Float {
+        get {
+            return button.layer.shadowOpacity
+        }
+        set {
+            button.layer.shadowOpacity = newValue
+        }
+    }
+    
+   // shadowOffSet for a view
+    
+    @IBInspectable var shadowOffset: CGSize {
+        get {
+            return button.layer.shadowOffset
+        }
+        set {
+            button.layer.shadowOffset = newValue
+        }
+    }
+    
+    //Shadow Radius For a View
+    
+    @IBInspectable var shadowRadius: Double {
+        get {
+            return Double(button.layer.shadowRadius)
+        }
+        set {
+            button.layer.shadowRadius = CGFloat(newValue)
+        }
+    }
+    //images hidden
+    @IBInspectable var leftImageHidden: Bool {
+        
+        get{
+            return iconImage1.isHidden
+        }
+        set(leftImageHidden) {
+            iconImage1.isHidden = leftImageHidden
+        }
+    }
+    @IBInspectable var rightImageHidden: Bool {
+        
+        get{
+            return iconImage2.isHidden
+        }
+        set(rightImageHidden) {
+            iconImage2.isHidden = leftImageHidden
+        }
+    }
 
 }

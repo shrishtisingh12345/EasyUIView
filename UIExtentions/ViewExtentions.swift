@@ -37,14 +37,14 @@ import UIKit
     
     //Clip to bound
     
-    @IBInspectable public override var clipsToBounds: Bool {
-        get {
-            return Bool(self.clipsToBounds)
-        }
-        set {
-            self.clipsToBounds = Bool(newValue)
-        }
-    }
+//    @IBInspectable public override var clipsToBounds: Bool {
+//        get {
+//            return Bool(self.clipsToBounds)
+//        }
+//        set {
+//            self.clipsToBounds = Bool(newValue)
+//        }
+//    }
     
     
     //Border color for view
