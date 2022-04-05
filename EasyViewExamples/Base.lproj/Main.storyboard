@@ -21,7 +21,6 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="image" keyPath="customfirstImage" value="square.and.arrow.up.fill" catalog="system"/>
-                                    <userDefinedRuntimeAttribute type="image" keyPath="customSecondImage" value="square.and.arrow.up.fill" catalog="system"/>
                                     <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
                                         <color key="value" systemColor="tintColor"/>
                                     </userDefinedRuntimeAttribute>

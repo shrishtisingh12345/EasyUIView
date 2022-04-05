@@ -6,7 +6,7 @@
 //
 
 import UIKit
-
+import EasyUIView
 
 class ViewController: UIViewController {
     var arr = [0]
@@ -14,6 +14,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         let date = Date(timeIntervalSinceNow: -60*60*24*7)
         print("Time ago :", date.timeAgoDisplay())
+        
     }
     
 }

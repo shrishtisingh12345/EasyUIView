@@ -176,5 +176,5 @@ import Foundation
             iconImage2.isHidden = leftImageHidden
         }
     }
-
+    
 }
