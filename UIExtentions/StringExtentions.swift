@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 
 public extension UILabel {
     func attributeString(text1:String,text2:String) -> NSAttributedString {
