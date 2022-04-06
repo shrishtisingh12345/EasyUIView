@@ -16,7 +16,6 @@
 		1986B39827DB2BDE00BF8318 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1986B39727DB2BDE00BF8318 /* Assets.xcassets */; };
 		1986B39B27DB2BDE00BF8318 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1986B39927DB2BDE00BF8318 /* LaunchScreen.storyboard */; };
 		1986B3A427DB2F7000BF8318 /* DateExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1986B3A327DB2F7000BF8318 /* DateExtentions.swift */; };
-		1986B3A627DB2F7D00BF8318 /* StringExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1986B3A527DB2F7D00BF8318 /* StringExtentions.swift */; };
 		1986B3A827DB2F8900BF8318 /* ViewExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1986B3A727DB2F8900BF8318 /* ViewExtentions.swift */; };
 		1986B3AC27DB2FB500BF8318 /* TextFieldExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1986B3AB27DB2FB500BF8318 /* TextFieldExtention.swift */; };
 		1986B3AE27DB309000BF8318 /* Travis.travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 1986B3AD27DB309000BF8318 /* Travis.travis.yml */; };
@@ -37,7 +36,6 @@
 		1986B39A27DB2BDE00BF8318 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1986B39C27DB2BDE00BF8318 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1986B3A327DB2F7000BF8318 /* DateExtentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtentions.swift; sourceTree = "<group>"; };
-		1986B3A527DB2F7D00BF8318 /* StringExtentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtentions.swift; sourceTree = "<group>"; };
 		1986B3A727DB2F8900BF8318 /* ViewExtentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtentions.swift; sourceTree = "<group>"; };
 		1986B3AB27DB2FB500BF8318 /* TextFieldExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldExtention.swift; sourceTree = "<group>"; };
 		1986B3AD27DB309000BF8318 /* Travis.travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = Travis.travis.yml; sourceTree = "<group>"; };
@@ -110,7 +108,6 @@
 			children = (
 				19C98C7E27E073B500266F7F /* UIButtonViews */,
 				1986B3A327DB2F7000BF8318 /* DateExtentions.swift */,
-				1986B3A527DB2F7D00BF8318 /* StringExtentions.swift */,
 				1986B3A727DB2F8900BF8318 /* ViewExtentions.swift */,
 				1986B3AB27DB2FB500BF8318 /* TextFieldExtention.swift */,
 				1986B39727DB2BDE00BF8318 /* Assets.xcassets */,
@@ -242,7 +239,6 @@
 			files = (
 				1986B3A427DB2F7000BF8318 /* DateExtentions.swift in Sources */,
 				1986B3AC27DB2FB500BF8318 /* TextFieldExtention.swift in Sources */,
-				1986B3A627DB2F7D00BF8318 /* StringExtentions.swift in Sources */,
 				1986B37327DB2B9A00BF8318 /* EasyUIView.docc in Sources */,
 				1986B3A827DB2F8900BF8318 /* ViewExtentions.swift in Sources */,
 				19C98C8027E073E100266F7F /* ButtonViewSuper.swift in Sources */,
