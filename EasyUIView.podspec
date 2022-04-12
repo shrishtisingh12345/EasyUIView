@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "EasyUIView"
-  spec.version      = "1.2"
+  spec.version      = "1.3"
   spec.summary      = "For Custom Storybord that will help u in view"
 
   # This description is used to generate tags and improve search results.
@@ -91,7 +91,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "UIExtentions/*","UIExtentions/UIButtonViews/*"
+  spec.source_files  = "UIExtentions/*","UIExtentions/UIButtonViews/**/*.{swift,otf,storyboard,xib}"
   #spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"

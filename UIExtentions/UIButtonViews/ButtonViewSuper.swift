@@ -92,14 +92,14 @@ import Foundation
     
     //Clip to bound
     
-    @IBInspectable public override var clipsToBounds: Bool {
-        get {
-            return Bool(button.clipsToBounds)
-        }
-        set {
-            button.clipsToBounds = Bool(newValue)
-        }
-    }
+//    @IBInspectable public override var clipsToBounds: Bool {
+//        get {
+//            return Bool(button.clipsToBounds)
+//        }
+//        set {
+//            button.clipsToBounds = Bool(newValue)
+//        }
+//    }
     
     
     //Border color for view
@@ -173,7 +173,16 @@ import Foundation
             return iconImage2.isHidden
         }
         set(rightImageHidden) {
-            iconImage2.isHidden = leftImageHidden
+            iconImage2.isHidden = rightImageHidden
+        }
+    }
+    @IBInspectable var buttonTitleColor: UIColor?
+    {
+        get{
+            return button.tintColor
+        }
+        set(buttonTitleColor) {
+            button.tintColor = buttonTitleColor
         }
     }
     
