@@ -7,13 +7,14 @@ EasyUIView Features :-
     1) Border
     3) Border Color 
     
- UITextField Extention:-
+ UITextField Extention :- 
    we have created function for textFiled Like 
     1) Email
     2) Nil Values
     3) min characters 
     4) Only charaters
     
+    import EasyUIView
     Example :- textField.isValidEmail == true {
     print("You can go on")
     }
